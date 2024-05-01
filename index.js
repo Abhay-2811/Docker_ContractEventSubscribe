@@ -5,8 +5,6 @@ require('dotenv').config()
 const web3 = new Web3(process.env.RPC_URL);
 const contractAddress = process.env.CONTRACT_ADD;
 
-console.log(process.env.RPC_URL,process.env.CONTRACT_ADD );
-
 const wss = new WebSocket.Server({ port: 3000 });
 
 
