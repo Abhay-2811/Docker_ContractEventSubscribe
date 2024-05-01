@@ -1,5 +1,7 @@
 # Subscribe to ERC20 Blockchain Events using public <a href="https://hub.docker.com/r/devabhay28/blockchain-eventlistener" target="_blank">Docker Container</a>
 
+The goal of this docker image is to run a websocket locally that listens to samrt contract event ( ERC20 Transfer Event ), and polls the logs. It can be used to integrate with frontend where transaction data of a token is required. 
+
 ## To use this service follow given steps:
 
 1. Pull the docker image
